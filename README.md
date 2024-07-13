@@ -1,5 +1,5 @@
 # SE-model-XENONnT-code
-This repository the code I came up with for my Bachelor thesis involving the modelling of the delayed single and few electron emissions in XENONnT. Note: it includes only the finalized versions necessary to completely recreate the results from my report. 
+This repository the code I came up with for my Bachelor thesis involving the modelling of the delayed single and few electron emissions in XENONnT. Note: it includes only the finalized versions necessary to completely recreate the results from my report. I will share the more "experimental" things that did not make it in with Connor
 
 peak_selection.ipynb includes some based plots created by STRAX, the processing framework for XENONnT. These plots were used to select the peaks for study (see All plots/peak_selection.png)
 
@@ -10,4 +10,8 @@ The folder Fit Results includes the results from iminuits extended maximum likel
 4. broken_power_law = A continuous broken power law density function fit to the time differences between each SE and the preceeding S2
 5. cumulative_power_law = The cumulative power law function as described by Eq. 4 and 5. in the report. Fit to 2000 S2 peaks and the SEs associated with it
 
+The folder "All plots" includes all the plots included in the report. 
+
 "notebook_containing_fits_3hr_run.ipynb" is the main notebook used for the results. It shows these fits and explores some various properties of the SE signals used to develop these models
+
+Finally "test_notebook_100s_run.ipynb" shows the results from a 100s snapshot of data from a different run that was used in the beginning stages and set the ground work for the models. Perhaps the results are interesting :)
