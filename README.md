@@ -1,5 +1,5 @@
 # SE-model-XENONnT-code
-This repository the code I came up with for my Bachelor thesis involving the modelling of the delayed single and few electron emissions in XENONnT. Note: it includes only the finalized versions necessary to completely recreate the results from my report. I will share the more "experimental" things that did not make it in with Connor
+This repository the code I came up with for my Bachelor thesis involving the modelling of the delayed single and few electron emissions in XENONnT. 
 
 peak_selection.ipynb includes some based plots created by STRAX, the processing framework for XENONnT. These plots were used to select the peaks for study (see All plots/peak_selection.png)
 
