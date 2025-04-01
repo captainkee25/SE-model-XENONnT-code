@@ -1,7 +1,7 @@
 # SE-model-XENONnT-code
 This repository the code I came up with for my Bachelor thesis involving the modelling of the delayed single and few electron emissions in XENONnT. 
 
-peak_selection.ipynb includes some based plots created by STRAX, the processing framework for XENONnT. These plots were used to select the peaks for study (see All plots/peak_selection.png)
+peak_selection.ipynb includes some basic plots created by STRAX, the processing framework for XENONnT. These plots were used to select the peaks for study (see All plots/peak_selection.png)
 
 The folder Fit Results includes the results from iminuits extended maximum likelihood estimator, saved as NumPy arrays so they can easily be read in. There are two files per fit: the parameter values themselves and the resulting covariance matrix (suffix "_cov.npy"). The prefix of each file name gives:
 1. expon_fit = The exponential function fit to study the varying livetime windows of each S2 peak
